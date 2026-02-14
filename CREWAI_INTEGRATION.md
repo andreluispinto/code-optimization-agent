@@ -15,5 +15,5 @@ This agent can be integrated into a CrewAI workflow as follows:
 Scalability Recommendations:
 
 - Use Redis for caching repeated analyses.
-- Introduce a message queue (e.g., RabbitMQ) for async processing.
+- Introduce a message queue (RabbitMQ) for async processing.
 - Deploy using Docker + Kubernetes for horizontal scaling.
